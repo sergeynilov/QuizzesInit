@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration {
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('quiz_categories', function (Blueprint $table) {
+            $table->id();
+            $table->json('name')->comment('This column is used for i18n support');
+            $table->boolean('active')->default(false);
+            $table->timestamps();
+        });
+
+        Artisan::call('db:seed', array('--class' => 'sergeynilov\QuizzesInit\database\seeders\quizCategoriesWithInitData'));
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('quiz_categories');
+    }
+};

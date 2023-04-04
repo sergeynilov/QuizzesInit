@@ -1,0 +1,50 @@
+<?php
+
+return [
+    'Is Correct'                                 => 'is correct',
+    'on'                                         => 'on',
+    'welcome'                                    => 'Welcome',
+    'Congratulations'                            => 'Congratulations!',
+    'We will get in touch with you'              => 'We will get in touch with you.',
+    'Skype name'                                 => 'Skype name',
+    'Phone number'                               => 'Phone number',
+    'Telegram channel'                           => 'Telegram channel',
+    'No preferable channel'                      => 'No preferable channel',
+    'You provided your email for contact'        => 'You provided your email for contact: ',
+    'Or select preferable communication channel' => 'Or select preferable communication channel',
+    'Enter your :channel'                        => 'Enter your :channel',
+    'on our quiz'                                => 'on our quiz.',
+    'in'                                         => 'in',
+
+    'Select language'                                          => 'Select language',
+    'language'                                                 => 'language',
+    'category'                                                 => 'category',
+    'You have finished the quizzes'                            => 'You have finished the quizzes',
+    'Quiz'                                                     => 'Quiz',
+    'You completed the quiz'                                   => 'You completed the quiz.',
+    'You answered all the quizzes'                             => 'You answered all the quizzes',
+    'You reached :summaryOfPoints points'                      => 'You reached :summaryOfPoints points.',
+    'Correct answers'                                          => 'Correct answers',
+    'Invalid quiz answer selected'                             => 'Invalid quiz answer selected.',
+    'You spent :timeSpentLabel on this quiz'                   => 'You spent :timeSpentLabel on this quiz',
+    'Your answer is correct'                                   => 'Your answer is correct.',
+    'Your answer is incorrect'                                 => 'Your answer is incorrect.',
+    'Your answer ":answer" accepted'                           => 'Your answer ":answer" accepted.',
+    'Correct answer is ":correctAnswer"'                       => 'Correct answer is ":correctAnswer"',
+    'You have selected :localeLabel for this quiz'             => 'You have selected :localeLabel for this quiz.',
+    'You have to answer to :quizzesCount questions'            => 'You have to answer to :quizzesCount questions',
+    'On any correct answer you will get some number of points' => 'On any correct answer you will get some number of points.',
+    'minutes'                                                             => 'minutes',
+    'minute'                                                              => 'minute',
+    'seconds'                                                             => 'seconds',
+    'second'                                                              => 'second',
+    'hours'                                                               => 'hours',
+    'hour'                                                                => 'hour',
+
+
+    'Please do not waste too much of time'                                => 'Please do not waste too much of time, as we consider spent time too.',
+    'Correct answers :correctAnswersSelectedCount of :activeQuizzesCount' => 'Correct answers :correctAnswersSelectedCount of :activeQuizzesCount.',
+
+    'Your :channelType will be saved and used for communication.' => 'Your :channelType will be saved and used for communication',
+
+];
